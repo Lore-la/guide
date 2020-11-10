@@ -93,8 +93,7 @@ Grundsätzlich empfehlen wir folgende Vorgehensweise:
 2. Sind in den anderen Registern keine Angaben gemacht worden, ist eine Unstimmigkeitsmeldung abzugeben.
 
 ## Abgleich der Daten
-Nachdem die Abfrage durch den Bundesanzeiger bearbeitet wurde, können Sie die Transparenzregisterauskunft unter dem Reiter „Transparenzregister“ einsehen.
-
+Nachdem die Abfrage durch den Bundesanzeiger bearbeitet wurde, können Sie die Transparenzregisterauskunft unter dem Reiter „Transparenzregister“ einsehen.  
 Dort zeigen wir Ihnen alle ermittelten wirtschaftlich Berechtigten an und stellen die Daten aus dem Transparenzregister den von Ihnen ermittelten Daten (KYCnow-Akte) gegenüber und überprüfen auf Unstimmigkeiten.
 Sie können die Daten der KYCnow-Akte in der rechten Spalte händisch eintragen und ändern.
 
@@ -122,3 +121,107 @@ Haben Sie das Modul GWG mitgebucht, teilen wir Ihnen sowohl die Mitteilungsfikti
 ![fiktion](/assets/fiktion.png)
 
 Es kann vorkommen, dass Ihnen eine Person doppelt angezeigt wird. Dies passiert, wenn ein Eintrag sowohl in das Transparenzregister als auch in eines der anderen möglichen Register erfolgt ist.
+
+## Unstimmigkeitsmeldungen
+
+### Wie stellen Sie eine Unstimmigkeit fest?
+Wir unterscheiden §23a I 4 GwG folgend zwischen drei verschiedenen Arten von Unstimmigkeiten:
+A)	Die Rechtseinheit ist im Transparenzregister nicht eingetragen
+B)	Es wurden abweichende / keine wirtschaftlich Berechtigte ermittelt
+C)	Einzelne Angaben zu einem wirtschaftlich Berechtigten weichen ab
+Wird eine Unstimmigkeit ermittelt, können Sie diese über unsere Anwendung direkt an das Transparenzregister melden. 
+
+Zur Ermittlung von Unstimmigkeiten, gleichen wir die Daten aus dem Transparenzregister mit denen aus dem Handelsregister, sowie mit den von Ihnen ermittelten Daten ab. Eine Modellierung der genauen Vorgehensweise können sie dem Anhang entnehmen.
+
+Die von uns ermittelte Unstimmigkeitsmeldung ist als Empfehlung zu verstehen. 
+
+### Woher erhalte ich die Rückmeldung zu den Unstimmigkeitsmeldungen?
+Unstimmigkeitsmeldungen werden vom Bundesanzeiger bearbeitet. Von diesen bekommen Sie auch Rückmeldung zu Unstimmigkeitsmeldungen, die Sie gesendet haben.
+Sie können die Rückmeldung jederzeit über unsere Oberfläche abrufen und/oder als PDF-Datei exportieren.  
+Sie können die Rückmeldung außerdem auch über ihren Account beim Bundesanzeiger abrufen.  
+Hat der Bundesanzeiger die Meldung bearbeitet, bekommen Sie dies von uns sofort mitgeteilt. Die Verzögerung, die zwischen der Mitteilung durch den Bundesanzeiger und der Weiterleitung durch uns entsteht, beträgt nur wenige Minuten.
+
+## Anhang
+### Modellierung unserer Unstimmigkeitsprüfung
+Der nachfolgende Prozess geschieht zu großen Teilen automatisch. Damit Sie aber nachvollziehen können, welche Schritte diesem Prozess zugrunde liegen, haben wir den gesamten Prozess moduliert.
+![unstimmigkeitspruefung](/assets/unstimmigkeitspruefung.png)
+
+In unserer Anwendung erfolgt die Suche nach der Rechtseinheit, für die ein Transparenzregisterauszug bestellt werden soll, in mehreren Teilschritten.
+
+Zu Beginn haben Sie das in Frage stehende Unternehmen bereits gesucht und Ihrem Bestand beigefügt.
+Eine genaue Beschreibung dieser Vorgehensweise können Sie unserem 
+Schritt-für-Schritt-Guide entnehmen.
+![unternehmensuchen](/assets/unternehmensuchen.png)
+
+Zur Bestellung des Transparenzregisterauszugs (näheres dazu auf Seite 5) bieten wir Ihnen eine Liste möglicher Treffer an. Um Tippfehler etc. auszuschließen, kann die Liste auch ähnliche Treffer beinhalten.
+![liste](/assets/liste.png)
+
+---
+**Fall A (vgl. Abbildung 9):**
+
+Ist die Rechtseinheit beim Transparenzregister nicht zu finden, kann eine Unstimmigkeitsmeldung aufgegeben werden. 
+
+---
+Hierzu werden Sie nach der entsprechenden Auswahl darum gebeten, die Rechtsform der transparenzpflichtigen Rechtseinheit anzugeben. Dies dient dem korrekten Ausfüllen der Unstimmigkeitsmeldung.
+![rechtseinheit](/assets/rechtseinheit.png)
+
+Im Anschluss werden Ihnen nochmals alle Informationen des betroffenen Unternehmens aufgezeigt, mit der Möglichkeit, diese auch nochmal 
+zu ![bearbeiten](/assets/bearbeiten.png)  
+![uebersicht](/assets/uebersicht.png)
+
+Wenn Sie das Unternehmen hingegen gefunden haben, erhalten Sie nach ein paar Tagen den Transparenzregisterauszug.
+Je nach Inhalt des Dokuments können Sie die weitere Vorgehensweise auf Seite 14 (Szenario: Negativattest) oder auf Seite 15 (Szenario: Transparenzregisterauszug erhalten) nachvollziehen. 
+
+### Szenario: Negativattest
+![negativtest](/assets/negativtest.png)
+Falls Sie vom Transparenzregister einen Negativattest erhalten haben, prüft unsere Anwendung im nächsten Schritt auf entsprechende Einträge im Handelsregister und, falls von Ihnen angegeben, auf von Ihnen ermittelte wirtschaftliche Berechtigte.
+
+---
+**Fall B**
+
+Sollte trotz Abgleich keine Eintragung ermittelt worden sein, deutet dies darauf hin, dass zu Unrecht von der Meldefiktion Gebrauch gemacht wurde, was zu Unstimmigkeitsmeldung (B) führt.
+
+---
+
+Wurden hingegen Angaben zu wirtschaftlich Berechtigten ermittelt, werden diese im nächsten Schritt auf Vollständigkeit überprüft.
+
+---
+**Fall C**
+
+Sind die Angaben unvollständig, ist wiederum eine Unstimmigkeitsmeldung an das Transparenzregister abzugeben.
+
+---
+
+Szenario: Transparenzregisterauszug erhalten
+![transparenzregisterauszug](/assets/transparenzregisterauszug.png)
+
+Wenn Sie einen Transparenzregisterauszug erhalten haben, fügen wir diesem zunächst, falls vorhanden, die von Ihnen ermittelten wirtschaftlichen Berechtigten hinzu. 
+
+Im nächsten Schritt wird anhand von Vor- und Nachnamen sowie dem Geburtstag nach Treffern im Handelsregister gesucht. Die Suche erfolgt dabei nur nach Hardmatch.
+
+![tabelle](/assets/tabelle.png)
+
+---
+**Fall D**
+
+Sollten bei dem ersten Abgleich Unterschiede festgestellt werden, kann dies als Unstimmigkeitsmeldung an das Transparenzregister geschickt werden. 
+
+---
+
+Wenn im ersten Abgleich keine Verschiedenheiten erkannt wurden, werden im nächsten Schritt alle übrigen Informationen abgeglichen. 
+
+---
+**Fall E**
+
+Kommt es hier zu Unstimmigkeiten, können Sie diese wiederum an das Transparenzregister melden.
+
+---
+
+Im letzten Schritt, falls auch die übrigen Informationen keine Unterschiede aufweisen, wird auf Vollständigkeit der Angaben geprüft. 
+
+---
+**Fall F**
+
+Sind die Angaben nicht vollständig, können Sie dies ebenfalls an das Transparenzregister melden.
+
+---
