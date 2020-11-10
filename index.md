@@ -16,4 +16,109 @@ Unsere Leistungen im Zusammenhang mit dem Transparenzregister lassen sich in dre
 Um unser Modul erfolgreich nutzen zu können, müssen Sie zuvor folgende Schritte erledigt haben:
 1. Account beim Bundesanzeiger anlegen. 
 2. Die Login-Daten für den Bundesanzeiger in unserer Anwendung unter „Einstellungen“ hinterlegen.
-![Settings](/assets/settings.png)
+![Einstellungen](/assets/einstellungen.png)
+1. Die Zahlungsart, die Sie beim Transparenzregister hinterlegt haben, im Rahmen des Onboardings bei uns hinterlegen. Mit dieser müssen Sie außerdem mindestens 1x erfolgreich beim Transparenzregister bestellt haben.
+    * Zahlen Sie per Lastschrift, bitten wir Sie anzukreuzen, die Kontodaten vorzubelegen.
+    ![kontodaten](/assets/kontodaten.png)
+2. Stellen Sie bitte sicher, dass vor jeder Bestellung mit Hilfe von KYCnow ihr Dokumentenkorb im Transparenzregister leer ist.
+
+### Brauche ich einen eigenen Account beim Bundesanzeiger?
+Ja, Sie müssen einen Account beim Bundesanzeiger anlegen. Über diesen Account wird mit dem Transparenzregister interagiert, also bspw. Abfragen getätigt oder Unstimmigkeitsmeldungen versendet.
+
+Ihre Login-Daten werden dabei verschlüsselt hinterlegt, sodass diese nur von Ihnen geändert werden können. Die Login-Daten werden zu Beginn automatisch von uns validiert und können zu keinem Zeitpunkt eingesehen werden.
+
+### Wer stellt die Rechnung?
+Sie erhalten von uns monatlich eine Rechnung 
+Separat erhalten Sie vom Bundesanzeiger, entsprechend Ihrer Abrufe, Rechnungen. Die jeweilige Gebühr, die vom Bundesanzeiger erhoben wird, können Sie der Transparenzregistergebührenverordnung (TrGebV) entnehmen oder [hier](https://www.transparenzregister.de/treg/de/hilfe?0) einsehen.
+
+### Ist eine Sammelrechnung möglich?
+Wir bieten Ihnen die Möglichkeit, alle Abfragen des Tages zu sammeln und diese in einer „Warenkorbbestellung“ abzugeben. Dies hat zur Folge, dass Sie anstelle mehrerer Rechnungen am Tag nur eine Rechnung am Tag vom Bundesanzeiger bekommen. 
+
+Technisch bedeutet die Warenkorbbestellung, dass wir abends alle Anfragen des Tages gebündelt an den Bundesanzeiger verschicken. 
+Bei Einzelbestellungen wird die Abfrage sofort an den Bundesanzeiger geschickt.
+
+Sie können sich zu Beginn für eine der zwei Möglichkeiten entscheiden. Sollten Sie im Laufe der Nutzung auf die jeweils andere Möglichkeit umsteigen wollen, können Sie sich jederzeit an unseren Kundenservice (fragestunde@kycnow.de) wenden. 
+Eine monatliche Rechnungsstellung ist leider nicht möglich.
+
+## Abruf von Daten
+Unter dem Reiter „Dokumente“ können Sie einen Transparenzregister-Auszug bestellen. 
+![Dokumente](/assets/dokumente.png)
+
+Danach erscheint ein Fenster, in dem Sie das Unternehmen, für das Sie den Auszug bestellen wollen, auswählen können. 
+Alternativ können Sie auch auswählen, das Unternehmen nicht gefunden zu haben.
+Dies führt zu einer Unstimmigkeitsmeldung.
+![companywaehlen](/assets/companywaehlen.png)
+
+Um den Bestellvorgang abzuschließen, müssen Sie den Anfragegrund angeben. Dieses Feld ist zwingend auszufüllen.
+![anfragegrund](/assets/anfragegrund.png)
+
+### Beziehen Sie die Daten direkt vom Bundesanzeiger?
+Nein, wir stehen in keiner Partnerschaft mit dem Bundesanzeiger, sondern erhalten die Daten durch Abruf des Transparenzregisters.
+
+### Brauche ich weiterhin ein berechtigtes Interesse?
+Ja, ein berechtigtes Interesse ist verpflichtend.
+
+### Wie schnell kommen die Daten wieder zurück?
+Wir können keine konkrete Zeit angeben, da wir bei der Bearbeitung der Abfragen nicht involviert sind. Hat der Bundesanzeiger die Abfrage bearbeitet, bekommen Sie dies von uns sofort mitgeteilt. Die Verzögerung zwischen der Mitteilung des Bundesanzeigers und der Weiterleitung durch uns beträgt nur wenige Minuten. 
+
+Die Bearbeitungsdauer durch den Bundesanzeiger beträgt wenige Stunden mitunter aber auch mehrere Tage.
+
+---
+**INFO**
+
+Wir haben die Erfahrung gemacht, dass eine detailliertere Beschreibung des berechtigten Interesses eine schnellere Rückmeldung zur Folge hat.
+
+---
+
+### Erhalten wir die Daten auch strukturiert?
+Ja, dazu lesen wir die Dokumente via OCR (optische Zeichenerkennung) aus.
+Die Struktur ist wie folgt:
+1. Vorname
+2. Nachname
+3. Geburtsdatum
+4. Wohnsitz
+5. Umfang der wirtschaftlichen Berechtigung
+6. Typ der wirtschaftlichen Berechtigung
+
+### Erhalten wir die Daten auch als PDF?
+Ja, Sie können sämtliche Daten auch als PDF-Datei exportieren.
+
+### Was passiert, wenn die Transparenzregister-Auskunft leer ist?
+Eine leere Transparenzregister-Auskunft ist nicht unüblich. Sie wird auch als Negativattest bezeichnet und bedeutet, dass dem Transparenzregister keine Angaben zu den wirtschaftlich Berechtigten gemacht wurden.
+
+Dies kann bedeuten, dass von der Mitteilungsfiktion profitiert wird. Andererseits ist es auch möglich, dass noch keine Mitteilung getätigt wurde. In diesem Fall ist eine Unstimmigkeitsmeldung abzugeben.
+
+Grundsätzlich empfehlen wir folgende Vorgehensweise:
+1. Prüfen Sie, ob bereits in einem der anderen Register nach §20 II GwG die notwendigen Angaben zu den wirtschaftlichen Berechtigten stehen.
+2. Sind in den anderen Registern keine Angaben gemacht worden, ist eine Unstimmigkeitsmeldung abzugeben.
+
+## Abgleich der Daten
+Nachdem die Abfrage durch den Bundesanzeiger bearbeitet wurde, können Sie die Transparenzregisterauskunft unter dem Reiter „Transparenzregister“ einsehen.
+
+Dort zeigen wir Ihnen alle ermittelten wirtschaftlich Berechtigten an und stellen die Daten aus dem Transparenzregister den von Ihnen ermittelten Daten (KYCnow-Akte) gegenüber und überprüfen auf Unstimmigkeiten.
+Sie können die Daten der KYCnow-Akte in der rechten Spalte händisch eintragen und ändern.
+
+Beispiel 1, Keine Unstimmigkeiten festgestellt:
+![beispiel1](/assets/beispiel1.png)
+
+Wenn wir Unstimmigkeiten bei einer wirtschaftlich berechtigten Person feststellen, markieren wir die Felder rot. 
+Möchten Sie einen wirtschaftlich Berechtigten ihrer Unstimmigkeitsmeldung beifügen, können Sie dies unten links auswählen.
+
+Beispiel 2, Unstimmigkeiten festgestellt
+![beispiel2](/assets/beispiel2.png)
+Sie können unter dem Reiter „Transparenzregister“ außerdem auch:
+
+1. Angeben, dass sich weitere wirtschaftlich Berechtigte aus anderen Registern ergeben.
+2. Eine weitere wirtschaftlich berechtigte Person Ihrer KYCnow-Akte beifügen. Wenn Sie darauf klicken, erscheint darüber eine neue Kartei für einen wirtschaftlich Berechtigten, in der Sie alle ermittelten Angaben händisch eintragen können.
+3. Eine Unstimmigkeitsmeldung auslösen. Wenn Sie eine Unstimmigkeitsmeldung auslösen, werden sämtliche Unstimmigkeiten, die Sie erkannt und ausgewählt haben automatisch an das Transparenzregister übermittelt
+4. Den Transparenzregisterauszug als PDF-Datei herunterladen.
+![unstimmigkeit](/assets/unstimmigkeit.png)
+
+### Wie wird die Mitteilungsfiktion abgebildet?
+Macht das in Frage stehende Unternehmen von der Meldefiktion Gebrauch, äußert sich das in einem leeren Transparenzregisterauszug (Negativattest). Der wirtschaftlich Berechtigte muss in diesem Fall aus dem Handelsregister oder einem der anderen Register nach §20 II 1 GwG zu entnehmen sein.
+
+Aus technischen Gründen können wir eine Mitteilungsfiktion nur dann abbilden, wenn Sie das Modul GWG mitgebucht haben, da dieses den Abruf der notwendigen Daten aus dem Handelsregister beinhaltet.
+Haben Sie das Modul GWG mitgebucht, teilen wir Ihnen sowohl die Mitteilungsfiktion als auch die entsprechende Quelle mit.
+![fiktion](/assets/fiktion.png)
+
+Es kann vorkommen, dass Ihnen eine Person doppelt angezeigt wird. Dies passiert, wenn ein Eintrag sowohl in das Transparenzregister als auch in eines der anderen möglichen Register erfolgt ist.
