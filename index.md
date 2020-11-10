@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+# Handbuch zum KYCnow-Modul „Transparenzregister“
 
-You can use the [editor on GitHub](https://github.com/Clarilab/guide.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Mit diesem Modul wollen wir Ihnen den Umgang mit dem Transparenzregister erleichtern und Sie darin unterstützen Compliance-Prozesse effizienter und effektiver zu gestalten. Im Folgenden beschreiben wir, wie Sie das Modul erfolgreich einrichten und beantworten Fragen zum Umgang mit dem Modul und wie dieses technisch funktioniert.  
+Sollten Ihre Fragen mithilfe dieses Handbuchs nicht beantwortet werden, senden Sie uns einfach eine Mail an fragestunde@kycnow.de. Eine Frage, die uns oft erreicht, wollen wir vorweg beantworten:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Welche Leistungen bieten Sie an? 
+Unsere Leistungen im Zusammenhang mit dem Transparenzregister lassen sich in drei Kategorien unterteilen: 
+ 
+- Abruf von Daten
+- Abgleich der Daten
+- Unstimmigkeitsmeldungen
 
-### Markdown
+{:toc}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Clarilab/guide.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Einrichten des Moduls
+Um unser Modul erfolgreich nutzen zu können, müssen Sie zuvor folgende Schritte erledigt haben:
+1. Account beim Bundesanzeiger anlegen. 
+2. Die Login-Daten für den Bundesanzeiger in unserer Anwendung unter „Einstellungen“ hinterlegen.
+![Settings](/assets/settings.png)
