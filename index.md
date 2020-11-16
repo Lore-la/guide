@@ -5,7 +5,7 @@ title: index
 
 # KYCnow-Guide 📖
 
-Herzlich Willkommen zum KYCnow-guide.  
+Herzlich willkommen zum KYCnow-guide.  
 Wir helfen Ihnen beim Einsatz der KYCnow-Plattform.
 
 ## Inhaltsverzeichnis
