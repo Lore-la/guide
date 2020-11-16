@@ -1,7 +1,12 @@
+---
+layout: default
+title: transparenzregister
+---
+
 # Handbuch zum KYCnow-Modul „Transparenzregister“
 
 Mit diesem Modul wollen wir Ihnen den Umgang mit dem Transparenzregister erleichtern und Sie darin unterstützen Compliance-Prozesse effizienter und effektiver zu gestalten. Im Folgenden beschreiben wir, wie Sie das Modul erfolgreich einrichten und beantworten Fragen zum Umgang mit dem Modul und wie dieses technisch funktioniert.  
-Sollten Ihre Fragen mithilfe dieses Handbuchs nicht beantwortet werden, senden Sie uns einfach eine Mail an fragestunde@kycnow.de. Eine Frage, die uns oft erreicht, wollen wir vorweg beantworten:
+Sollten Ihre Fragen mithilfe dieses Handbuchs nicht beantwortet werden, senden Sie uns einfach eine Mail an ([fragestunde@kycnow.de](mailto:fragestunde@kycnow.de)). Eine Frage, die uns oft erreicht, wollen wir vorweg beantworten:
 
 ## Welche Leistungen bieten Sie an? 
 Unsere Leistungen im Zusammenhang mit dem Transparenzregister lassen sich in drei Kategorien unterteilen: 
@@ -10,16 +15,14 @@ Unsere Leistungen im Zusammenhang mit dem Transparenzregister lassen sich in dre
 - Abgleich der Daten
 - Unstimmigkeitsmeldungen
 
-{:toc}
-
 ## Einrichten des Moduls
 Um unser Modul erfolgreich nutzen zu können, müssen Sie zuvor folgende Schritte erledigt haben:
 1. Account beim Bundesanzeiger anlegen. 
 2. Die Login-Daten für den Bundesanzeiger in unserer Anwendung unter „Einstellungen“ hinterlegen.
-![Einstellungen](/assets/einstellungen.png)
+![Einstellungen](/assets/transparenzregister/einstellungen.png)
 1. Die Zahlungsart, die Sie beim Transparenzregister hinterlegt haben, im Rahmen des Onboardings bei uns hinterlegen. Mit dieser müssen Sie außerdem mindestens 1x erfolgreich beim Transparenzregister bestellt haben.
     * Zahlen Sie per Lastschrift, bitten wir Sie anzukreuzen, die Kontodaten vorzubelegen.
-    ![kontodaten](/assets/kontodaten.png)
+    ![kontodaten](/assets/transparenzregister/kontodaten.png)
 2. Stellen Sie bitte sicher, dass vor jeder Bestellung mit Hilfe von KYCnow ihr Dokumentenkorb im Transparenzregister leer ist.
 
 ### Brauche ich einen eigenen Account beim Bundesanzeiger?
@@ -37,20 +40,20 @@ Wir bieten Ihnen die Möglichkeit, alle Abfragen des Tages zu sammeln und diese 
 Technisch bedeutet die Warenkorbbestellung, dass wir abends alle Anfragen des Tages gebündelt an den Bundesanzeiger verschicken. 
 Bei Einzelbestellungen wird die Abfrage sofort an den Bundesanzeiger geschickt.
 
-Sie können sich zu Beginn für eine der zwei Möglichkeiten entscheiden. Sollten Sie im Laufe der Nutzung auf die jeweils andere Möglichkeit umsteigen wollen, können Sie sich jederzeit an unseren Kundenservice (fragestunde@kycnow.de) wenden. 
+Sie können sich zu Beginn für eine der zwei Möglichkeiten entscheiden. Sollten Sie im Laufe der Nutzung auf die jeweils andere Möglichkeit umsteigen wollen, können Sie sich jederzeit an unseren Kundenservice ([fragestunde@kycnow.de](mailto:fragestunde@kycnow.de)) wenden. 
 Eine monatliche Rechnungsstellung ist leider nicht möglich.
 
 ## Abruf von Daten
 Unter dem Reiter „Dokumente“ können Sie einen Transparenzregister-Auszug bestellen. 
-![Dokumente](/assets/dokumente.png)
+![Dokumente](/assets/transparenzregister/dokumente.png)
 
 Danach erscheint ein Fenster, in dem Sie das Unternehmen, für das Sie den Auszug bestellen wollen, auswählen können. 
 Alternativ können Sie auch auswählen, das Unternehmen nicht gefunden zu haben.
-Dies führt zu einer Unstimmigkeitsmeldung.
-![companywaehlen](/assets/companywaehlen.png)
+Dies führt zu einer [Unstimmigkeitsmeldung](#unstimmigkeitsmeldungen).
+![companywaehlen](/assets/transparenzregister/companywaehlen.png)
 
 Um den Bestellvorgang abzuschließen, müssen Sie den Anfragegrund angeben. Dieses Feld ist zwingend auszufüllen.
-![anfragegrund](/assets/anfragegrund.png)
+![anfragegrund](/assets/transparenzregister/anfragegrund.png)
 
 ### Beziehen Sie die Daten direkt vom Bundesanzeiger?
 Nein, wir stehen in keiner Partnerschaft mit dem Bundesanzeiger, sondern erhalten die Daten durch Abruf des Transparenzregisters.
@@ -86,7 +89,7 @@ Ja, Sie können sämtliche Daten auch als PDF-Datei exportieren.
 ### Was passiert, wenn die Transparenzregister-Auskunft leer ist?
 Eine leere Transparenzregister-Auskunft ist nicht unüblich. Sie wird auch als Negativattest bezeichnet und bedeutet, dass dem Transparenzregister keine Angaben zu den wirtschaftlich Berechtigten gemacht wurden.
 
-Dies kann bedeuten, dass von der Mitteilungsfiktion profitiert wird. Andererseits ist es auch möglich, dass noch keine Mitteilung getätigt wurde. In diesem Fall ist eine Unstimmigkeitsmeldung abzugeben.
+Dies kann bedeuten, dass von der Mitteilungsfiktion profitiert wird. Andererseits ist es auch möglich, dass noch keine Mitteilung getätigt wurde. In diesem Fall ist eine [Unstimmigkeitsmeldung](#unstimmigkeitsmeldungen) abzugeben.
 
 Grundsätzlich empfehlen wir folgende Vorgehensweise:
 1. Prüfen Sie, ob bereits in einem der anderen Register nach §20 II GwG die notwendigen Angaben zu den wirtschaftlichen Berechtigten stehen.
@@ -98,27 +101,27 @@ Dort zeigen wir Ihnen alle ermittelten wirtschaftlich Berechtigten an und stelle
 Sie können die Daten der KYCnow-Akte in der rechten Spalte händisch eintragen und ändern.
 
 Beispiel 1, Keine Unstimmigkeiten festgestellt:
-![beispiel1](/assets/beispiel1.png)
+![beispiel1](/assets/transparenzregister/beispiel1.png)
 
 Wenn wir Unstimmigkeiten bei einer wirtschaftlich berechtigten Person feststellen, markieren wir die Felder rot. 
 Möchten Sie einen wirtschaftlich Berechtigten ihrer Unstimmigkeitsmeldung beifügen, können Sie dies unten links auswählen.
 
 Beispiel 2, Unstimmigkeiten festgestellt
-![beispiel2](/assets/beispiel2.png)
+![beispiel2](/assets/transparenzregister/beispiel2.png)
 Sie können unter dem Reiter „Transparenzregister“ außerdem auch:
 
 1. Angeben, dass sich weitere wirtschaftlich Berechtigte aus anderen Registern ergeben.
 2. Eine weitere wirtschaftlich berechtigte Person Ihrer KYCnow-Akte beifügen. Wenn Sie darauf klicken, erscheint darüber eine neue Kartei für einen wirtschaftlich Berechtigten, in der Sie alle ermittelten Angaben händisch eintragen können.
 3. Eine Unstimmigkeitsmeldung auslösen. Wenn Sie eine Unstimmigkeitsmeldung auslösen, werden sämtliche Unstimmigkeiten, die Sie erkannt und ausgewählt haben automatisch an das Transparenzregister übermittelt
 4. Den Transparenzregisterauszug als PDF-Datei herunterladen.
-![unstimmigkeit](/assets/unstimmigkeit.png)
+![unstimmigkeit](/assets/transparenzregister/unstimmigkeit.png)
 
 ### Wie wird die Mitteilungsfiktion abgebildet?
 Macht das in Frage stehende Unternehmen von der Meldefiktion Gebrauch, äußert sich das in einem leeren Transparenzregisterauszug (Negativattest). Der wirtschaftlich Berechtigte muss in diesem Fall aus dem Handelsregister oder einem der anderen Register nach §20 II 1 GwG zu entnehmen sein.
 
 Aus technischen Gründen können wir eine Mitteilungsfiktion nur dann abbilden, wenn Sie das Modul GWG mitgebucht haben, da dieses den Abruf der notwendigen Daten aus dem Handelsregister beinhaltet.
 Haben Sie das Modul GWG mitgebucht, teilen wir Ihnen sowohl die Mitteilungsfiktion als auch die entsprechende Quelle mit.
-![fiktion](/assets/fiktion.png)
+![fiktion](/assets/transparenzregister/fiktion.png)
 
 Es kann vorkommen, dass Ihnen eine Person doppelt angezeigt wird. Dies passiert, wenn ein Eintrag sowohl in das Transparenzregister als auch in eines der anderen möglichen Register erfolgt ist.
 
@@ -131,7 +134,7 @@ B)	Es wurden abweichende / keine wirtschaftlich Berechtigte ermittelt
 C)	Einzelne Angaben zu einem wirtschaftlich Berechtigten weichen ab
 Wird eine Unstimmigkeit ermittelt, können Sie diese über unsere Anwendung direkt an das Transparenzregister melden. 
 
-Zur Ermittlung von Unstimmigkeiten, gleichen wir die Daten aus dem Transparenzregister mit denen aus dem Handelsregister, sowie mit den von Ihnen ermittelten Daten ab. Eine Modellierung der genauen Vorgehensweise können sie dem Anhang entnehmen.
+Zur Ermittlung von Unstimmigkeiten, gleichen wir die Daten aus dem Transparenzregister mit denen aus dem Handelsregister, sowie mit den von Ihnen ermittelten Daten ab. Eine Modellierung der genauen Vorgehensweise können sie dem [Anhang](#anhang) entnehmen.
 
 Die von uns ermittelte Unstimmigkeitsmeldung ist als Empfehlung zu verstehen. 
 
@@ -144,17 +147,17 @@ Hat der Bundesanzeiger die Meldung bearbeitet, bekommen Sie dies von uns sofort 
 ## Anhang
 ### Modellierung unserer Unstimmigkeitsprüfung
 Der nachfolgende Prozess geschieht zu großen Teilen automatisch. Damit Sie aber nachvollziehen können, welche Schritte diesem Prozess zugrunde liegen, haben wir den gesamten Prozess moduliert.
-![unstimmigkeitspruefung](/assets/unstimmigkeitspruefung.png)
+![unstimmigkeitspruefung](/assets/transparenzregister/unstimmigkeitspruefung.png)
 
 In unserer Anwendung erfolgt die Suche nach der Rechtseinheit, für die ein Transparenzregisterauszug bestellt werden soll, in mehreren Teilschritten.
 
 Zu Beginn haben Sie das in Frage stehende Unternehmen bereits gesucht und Ihrem Bestand beigefügt.
 Eine genaue Beschreibung dieser Vorgehensweise können Sie unserem 
 Schritt-für-Schritt-Guide entnehmen.
-![unternehmensuchen](/assets/unternehmensuchen.png)
+![unternehmensuchen](/assets/transparenzregister/unternehmensuchen.png)
 
 Zur Bestellung des Transparenzregisterauszugs (näheres dazu auf Seite 5) bieten wir Ihnen eine Liste möglicher Treffer an. Um Tippfehler etc. auszuschließen, kann die Liste auch ähnliche Treffer beinhalten.
-![liste](/assets/liste.png)
+![liste](/assets/transparenzregister/liste.png)
 
 ---
 **Fall A (vgl. Abbildung 9):**
@@ -163,17 +166,17 @@ Ist die Rechtseinheit beim Transparenzregister nicht zu finden, kann eine Unstim
 
 ---
 Hierzu werden Sie nach der entsprechenden Auswahl darum gebeten, die Rechtsform der transparenzpflichtigen Rechtseinheit anzugeben. Dies dient dem korrekten Ausfüllen der Unstimmigkeitsmeldung.
-![rechtseinheit](/assets/rechtseinheit.png)
+![rechtseinheit](/assets/transparenzregister/rechtseinheit.png)
 
 Im Anschluss werden Ihnen nochmals alle Informationen des betroffenen Unternehmens aufgezeigt, mit der Möglichkeit, diese auch nochmal 
-zu ![bearbeiten](/assets/bearbeiten.png)  
-![uebersicht](/assets/uebersicht.png)
+zu ![bearbeiten](/assets/transparenzregister/bearbeiten.png)  
+![uebersicht](/assets/transparenzregister/uebersicht.png)
 
 Wenn Sie das Unternehmen hingegen gefunden haben, erhalten Sie nach ein paar Tagen den Transparenzregisterauszug.
 Je nach Inhalt des Dokuments können Sie die weitere Vorgehensweise auf Seite 14 (Szenario: Negativattest) oder auf Seite 15 (Szenario: Transparenzregisterauszug erhalten) nachvollziehen. 
 
 ### Szenario: Negativattest
-![negativtest](/assets/negativtest.png)
+![negativtest](/assets/transparenzregister/negativtest.png)
 Falls Sie vom Transparenzregister einen Negativattest erhalten haben, prüft unsere Anwendung im nächsten Schritt auf entsprechende Einträge im Handelsregister und, falls von Ihnen angegeben, auf von Ihnen ermittelte wirtschaftliche Berechtigte.
 
 ---
@@ -193,13 +196,13 @@ Sind die Angaben unvollständig, ist wiederum eine Unstimmigkeitsmeldung an das 
 ---
 
 Szenario: Transparenzregisterauszug erhalten
-![transparenzregisterauszug](/assets/transparenzregisterauszug.png)
+![transparenzregisterauszug](/assets/transparenzregister/transparenzregisterauszug.png)
 
 Wenn Sie einen Transparenzregisterauszug erhalten haben, fügen wir diesem zunächst, falls vorhanden, die von Ihnen ermittelten wirtschaftlichen Berechtigten hinzu. 
 
 Im nächsten Schritt wird anhand von Vor- und Nachnamen sowie dem Geburtstag nach Treffern im Handelsregister gesucht. Die Suche erfolgt dabei nur nach Hardmatch.
 
-![tabelle](/assets/tabelle.png)
+![tabelle](/assets/transparenzregister/tabelle.png)
 
 ---
 **Fall D**
